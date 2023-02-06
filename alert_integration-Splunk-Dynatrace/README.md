@@ -1,7 +1,7 @@
 # Introdução
 
 Pessoal, recentemente elaborei a primeira versão de uma integração entre as ferramentas Splunk e Dynatrace para compartilhamento de alertas entre equipes. Foi uma necessidade de cliente, a integração ainda não existia open-source e não houve êxito instalando add-on para realizar requisições/webhook via post com json.
-A princípio a integração não conta com sua versão add-on Splunk, que possibilita instalação via interface web do Splunk, porém futuramente será adaptado.
+A princípio a integração não conta com sua versão add-on Splunk que possibilita instalação via interface web do Splunk, porém futuramente será adaptado.
 
 O principal objetivo da integração seria manter informado a equipe que visualiza a ferramenta Dynatrace quando surgir um alerta no Splunk sem a necessidade de estar acessando ambas as ferramentas. Após avaliado os dados e emitido o alerta na interface web do Splunk, deveria também aparecer no Dynatrace utilizam o recurso Custom Device (semelhante à alertas do Splunk).
 
