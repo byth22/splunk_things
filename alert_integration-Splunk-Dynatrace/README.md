@@ -12,6 +12,7 @@ O alerta utilizado como caso de uso para a integração, analisa dados originado
 # Configuração
 Para inciar, é necessário ter conhecimento básico em criar alerta no Splunk e em interpretação de chamadas de API.
 O alerta compartilhado segue o padrão abaixo, com o possível IP atacante e quantidade de requisições:
+
 `0.0.0.0(IP): 5000(requisições)`
 
 ## Etapa 1 - Gerando Custom Device no Dynatrace
