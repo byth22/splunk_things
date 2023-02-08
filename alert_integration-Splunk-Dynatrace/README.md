@@ -31,7 +31,7 @@ Enquanto criando um alerta para o Splunk, adicione a ação Saída de Arquivo .c
 ![dc4965c9d1cf670a6beb7476b29c198f.png](./_resources/dc4965c9d1cf670a6beb7476b29c198f-1.png)
 
 ## Etapa 4 - ajustando arquivo de integração
-É necessário alterar as funções payloadCreator() e requester() da classe Sender e o apontamento para o arquivo .csv gerado pelo alerta na função main() de acordo com seu ambiente:
+É necessário alterar as funções payload_creator() e requester() da classe Sender e o apontamento para o arquivo .csv gerado pelo alerta na função main() de acordo com seu ambiente:
 ![68097033621c6fc7d42e0b8ce4507595.png](./_resources/68097033621c6fc7d42e0b8ce4507595-1.png)
 ![2faade54c46dcb61c783acaa62a60eef.png](./_resources/2faade54c46dcb61c783acaa62a60eef-1.png)
 ![6cfffb5ba2d3d6ddcf4c4f75a996737d.png](./_resources/6cfffb5ba2d3d6ddcf4c4f75a996737d.png)
