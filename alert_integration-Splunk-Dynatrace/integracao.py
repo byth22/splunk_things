@@ -49,7 +49,7 @@ manager (WAF Akakmai) para endpoint /<YOUR_ENDPOINT> no host\
 seguranca: (contato_aqui)'
 
     # Payload creator function.
-    def payloadCreator(self):
+    def payload_creator(self):
         # Join parsed text from dyna.csv to payload R1 alert template.
         # Set and custom your payload based on custom device.
         self.data = '''{
@@ -105,5 +105,5 @@ if __name__ == '__main__':
 
     # Sending request to API
     envio = Sender(arquivo.get_last_line())
-    envio.payloadCreator()
+    envio.payload_creator()
     envio.requester()
