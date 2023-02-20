@@ -25,11 +25,11 @@ Permissão:
 Transferir dono:
 `chown splunk:splunk integracao.py`
 
-## Etapa 3 - Geração de arquivo csv após alerta
+## Etapa 3 - Gerando arquivo csv após alerta
 Enquanto criando um alerta para o Splunk, adicione a ação Saída de Arquivo .csv com a opção Replace, para que apenas novos alertas permaneçam no arquivo:
 ![dc4965c9d1cf670a6beb7476b29c198f.png](./_resources/dc4965c9d1cf670a6beb7476b29c198f-1.png)
 
-## Etapa 4 - ajustando arquivo de integração
+## Etapa 4 - Ajustando arquivo de integração
 É necessário alterar as funções payload_creator() e requester() da classe Sender e o apontamento para o arquivo .csv gerado pelo alerta na função main() de acordo com seu ambiente:
 ![68097033621c6fc7d42e0b8ce4507595.png](./_resources/68097033621c6fc7d42e0b8ce4507595-1.png)
 ![2faade54c46dcb61c783acaa62a60eef.png](./_resources/2faade54c46dcb61c783acaa62a60eef-1.png)
@@ -40,7 +40,7 @@ Adicione a ação para executar scripts no servidor:
 ![27109c216487454ef63f69a034af212b.png](./_resources/27109c216487454ef63f69a034af212b-1.png)
 
 
-# Validação de alerta compartilhado
+# Validando alerta compartilhado
 O alerta será gerado no Custom Devices:
 ![591d5fd580110ba3b862af6d35ed56d9.png](./_resources/591d5fd580110ba3b862af6d35ed56d9-1.png)
 ![ccc464cbc087b47450559c729a97fe35.png](./_resources/ccc464cbc087b47450559c729a97fe35-1.png)
